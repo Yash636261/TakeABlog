@@ -1,15 +1,27 @@
 *{
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 .container{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
 }
 .navbar{
-    background-color: rgb(164, 77, 245);
-    padding: 0px 0px;
+    color: white;
+    background-color: black;
+    padding: 20px 0px;
     display: flex;
     flex-direction: row;
+}
+.logo{
+    width: 20vw;
+    font-weight: 1000;
+    font-size: larger;
+    text-align: center;
+}
+.links{
+    width: 60vw;
+    align-items: center;
 }
 .links ul{
     list-style: none;
@@ -19,6 +31,14 @@
 .links ul li{
     padding: 0px 10px;
     font-weight: bold;
+}
+.button{
+    width: 20vw;
+}
+button{
+    background-color: #adaeb3;
+    border-radius: 25%;
+    padding: 5px 20px;
 }
 .grid {
     max-width: 1000px;
@@ -77,4 +97,52 @@
 }
 .refrence{
     width: 50vw;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 100px 20px;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.social{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f1eff9;
+    width: 50%;
+}
+.social h5{
+    padding: 20px 0;
+    font-weight:100;
+}
+.connect{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.link ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: medium;
+}
+.link ul li{
+    padding: 0 5px;
+}
+.link ul li a:hover{
+    opacity: 1;
+}
+.end .copyright{
+    margin-top: 20px;
+    text-align: center;
+    font-size: medium;
+    color: lightgray;
 }
