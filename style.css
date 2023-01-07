@@ -116,6 +116,23 @@ button a:hover{
 .refrence{
     width: 50vw;
 }
+#button {
+    line-height: 12px;
+    width: 98px;
+    height: 32px;
+    font-size: 19pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    margin-top: 14px;
+    margin-right: 10px;
+    margin-left: 150px;
+    background-color: rgb(69, 34, 211);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+  }
+  
 .footer{
     display: flex;
     flex-direction: column;
